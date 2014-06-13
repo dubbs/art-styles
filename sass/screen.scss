@@ -1,0 +1,44 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/*@import "compass/reset";*/
+@import "susy";
+
+.theme-deco {
+  background: url(http://subtlepatterns.com/patterns/congruent_pentagon.png);
+  body {
+    padding: 0 60px;
+    font-size: 1em;
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 6.854em;
+  }
+  h2 {
+    font-size: 4.236em;
+  }
+  h3 {
+    font-size: 2.618em;
+  }
+  h4 {
+    font-size: 1.618em;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Voltaire', sans-serif;
+    text-transform: uppercase;
+  }
+  p {
+    line-height: 1.4;
+  }
+  .container {
+    @include container();
+  }
+  .patterns, .motifs, .colors, .materials {
+    @include span(33.333%);
+    margin-right: 0;
+  }
+}
+

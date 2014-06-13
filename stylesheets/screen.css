@@ -1,0 +1,60 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import "compass/reset";*/
+/* line 9, ../sass/screen.scss */
+.theme-deco {
+  background: url(http://subtlepatterns.com/patterns/congruent_pentagon.png);
+}
+/* line 11, ../sass/screen.scss */
+.theme-deco body {
+  padding: 0 60px;
+  font-size: 1em;
+  font-family: 'PT Serif', sans-serif;
+  text-align: center;
+}
+/* line 17, ../sass/screen.scss */
+.theme-deco h1 {
+  font-size: 6.854em;
+}
+/* line 20, ../sass/screen.scss */
+.theme-deco h2 {
+  font-size: 4.236em;
+}
+/* line 23, ../sass/screen.scss */
+.theme-deco h3 {
+  font-size: 2.618em;
+}
+/* line 26, ../sass/screen.scss */
+.theme-deco h4 {
+  font-size: 1.618em;
+}
+/* line 29, ../sass/screen.scss */
+.theme-deco h1, .theme-deco h2, .theme-deco h3, .theme-deco h4 {
+  font-family: 'Voltaire', sans-serif;
+  text-transform: uppercase;
+}
+/* line 33, ../sass/screen.scss */
+.theme-deco p {
+  line-height: 1.4;
+}
+/* line 36, ../sass/screen.scss */
+.theme-deco .container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/susy-2.1.1/sass/susy/output/support/_clearfix.scss */
+.theme-deco .container::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 39, ../sass/screen.scss */
+.theme-deco .patterns, .theme-deco .motifs, .theme-deco .colors, .theme-deco .materials {
+  width: 33.333%;
+  float: left;
+  margin-right: 5.26316%;
+  margin-right: 0;
+}
