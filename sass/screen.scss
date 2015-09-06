@@ -7,12 +7,13 @@
 @import "susy";
 
 .theme-deco {
-  background: url(http://subtlepatterns.com/patterns/congruent_pentagon.png);
+  background: url(../images/congruent_pentagon.png);
   body {
     padding: 0 60px;
     font-size: 1em;
     font-family: 'PT Serif', sans-serif;
     text-align: center;
+    padding-bottom: 30px;
   }
   h1 {
     font-size: 6.854em;
